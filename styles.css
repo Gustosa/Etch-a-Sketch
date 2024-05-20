@@ -1,0 +1,28 @@
+* {
+    margin: 0
+}
+
+body {
+    display: flex;
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex: 1
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: blue;
+}
+
+.square {
+    background-color: orange;
+    flex: 1;
+    margin: 2px;
+}
+
