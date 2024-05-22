@@ -24,6 +24,8 @@ function createGrid(squares) {
             square.style = `background-color: ${randomizeRBG()}; opacity: 1`
 
             square.addEventListener("mouseenter", (event) => {
+                square.style.backgroundColor = randomizeRBG()
+
                 if (square.style.opacity > 0) {
                     event.target.style.opacity -= 0.1
                 }
