@@ -38,15 +38,10 @@ body {
     flex-direction: column;
     flex: 1;
     box-sizing: border-box;
-    background-color: darkblue;
+    background-color: black;
 }
 
 .square {
     flex: 1;
     margin: 1px;
-    background-color: orange;
-}
-
-.hover {
-    background-color: brown;
 }
